@@ -20,6 +20,20 @@ The repository is organized as follows:
 - **Code**: Contains the generated code snippets from LLM tools.
 - **Error_Fixing_Sheet**: Contains a spreadsheet documenting the errors detected and fixed during the assignment.
 
+## List of LLM Tools
+1. ChatGPT
+2. Ask Codi
+3. You
+4. Google Bard (Gemini)
+5. GitHub Copilot
+6. Amazon Whisperer
+7. Microsoft Copilot
+8. Tabnine
+9. Codeium
+10. Phind
+11. blackbox
+12. double
+
 ## Instructions for Deploying Websites
 
 To deploy each website:
