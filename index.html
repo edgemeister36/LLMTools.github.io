@@ -1,117 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rent-A-Car</title>
 <style>
-/* CSS Styles */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+background-color: lightblue;
 }
 
-.header {
-    background-color: #3498db;
-    color: white;
-    padding: 20px;
-    text-align: center;
+header {
+background-color: darkblue;
+color: white;
+padding: 20px;
 }
 
-.navbar {
-    overflow: hidden;
+nav {
+float: left;
 }
 
-.navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
 }
 
-.navbar a:hover {
-    background-color: #2980b9;
+nav li {
+display: inline-block;
 }
 
-.footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
+nav a {
+color: white;
+text-decoration: none;
+padding: 10px 20px;
 }
 
-.product {
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff; /* Add a white background for better contrast */
+h1 {
+float: left;
 }
 
-.form {
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.container {
+max-width: 1000px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+section {
+float: left;
+width: 70%;
+padding-right: 30px;
+}
+
+aside {
+float: right;
+width: 30%;
+}
+
+footer {
+background-color: darkblue;
+color: white;
+clear: both;
+text-align: center;
+padding: 20px;
 }
 
 </style>
 </head>
+
 <body>
-<div class="header">
-    <h1 style="color: black;">Rent-A-Car</h1> <!-- Increase contrast by setting text color to black -->
-    <div class="navbar">
-        <a href="#home">Home</a>
-        <a href="#products">Products</a>
-        <a href="#contact">Contact</a>
-    </div>
+
+<header>
+<h1>Car Rental Company</h1>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<div class="container">
+
+<section>
+<h2>Rental Cars</h2>
+<img src="car.jpg">
+<p>We offer a variety of rental cars to suit your needs...</p>
+</section>
+
+<aside>
+<h3>Special Offers</h3>
+<p>Sign up for our newsletter to get the latest deals...</p>
+
+<h3>Contact Us</h3>
+<p>123 Main St, City, State 12345</p> 
+<p>Phone: 555-123-4567</p>
+</aside>
+
 </div>
 
-<div id="home" class="product">
-    <h2>Welcome to Rent-A-Car!</h2>
-    <p>We offer a wide range of rental cars to suit your needs. Whether you're planning a road trip or need a temporary replacement while your car is being serviced, we've got you covered.</p>
-</div>
-
-<div id="products">
-    <div class="product">
-        <img src="car1.jpg" alt="Car 1">
-        <h2>Car Model 1</h2>
-        <p>Description of Car Model 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <button>Book Now</button>
-    </div>
-    
-    <div class="product">
-        <img src="car2.jpg" alt="Car 2">
-        <h2>Car Model 2</h2>
-        <p>Description of Car Model 2. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <button>Book Now</button>
-    </div>
-</div>
-
-<div id="contact" class="form">
-    <h2>Contact Us</h2>
-    <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
-        <button type="submit">Submit</button>
-    </form>
-</div>
-
-<div class="footer">
-    <p>&copy; 2024 Rent-A-Car. All rights reserved.</p>
-</div>
-
-<script>
-// JavaScript code
-// You can add your JavaScript functionality here
-</script>
+<footer>
+<p>Copyright 2021, Car Rental Company</p>
+</footer>
 
 </body>
 </html>
